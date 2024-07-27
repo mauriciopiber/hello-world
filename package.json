@@ -1,6 +1,18 @@
 {
   "author": "Maurício Piber Fão",
+  "dependencies": {
+    "@semantic-release/git": "^10.0.1"
+  },
   "description": "First hello world to the world",
+  "devDependencies": {
+    "semantic-release": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "learning",
     "hello world",
@@ -9,21 +21,16 @@
     "typescript"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "name": "@piber/hello-world",
   "repository": {
     "url": "https://github.com/mauriciopiber/hello-world"
   },
   "scripts": {
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.0",
-  "devDependencies": {
-    "semantic-release": "^24.0.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
-  },
-  "dependencies": {
-    "@semantic-release/git": "^10.0.1"
-  }
+  "types": "./dist/index.d.ts",
+  "version": "1.1.0"
 }
