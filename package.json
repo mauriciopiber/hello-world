@@ -8,7 +8,7 @@
     "node",
     "typescript"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "name": "@piber/hello-world",
   "repository": {
