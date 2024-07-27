@@ -1,11 +1,21 @@
 {
   "author": "Maurício Piber Fão",
   "description": "First hello world to the world",
+  "keywords": [
+    "learning",
+    "hello world",
+    "nodejs",
+    "node",
+    "typescript"
+  ],
   "license": "ISC",
   "main": "index.js",
   "name": "@piber/hello-world",
+  "repository": {
+    "url": "https://github.com/mauriciopiber/hello-world"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.1.4"
+  "version": "0.2.0"
 }
