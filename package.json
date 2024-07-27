@@ -1,0 +1,11 @@
+{
+  "author": "Maurício Piber Fão",
+  "description": "First hello world to the world",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@piber/hello-world",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.4"
+}
